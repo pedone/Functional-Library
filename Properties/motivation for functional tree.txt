@@ -1,0 +1,9 @@
+Motivation for functional tree
+
+- nur moeglich mit dependency objects
+- wenig bis keine kontrolle ueber erstellung des logical trees (baum in dem routing angewandt wird)
+- keine events fuer attached/detached to/from logical/visual tree
+- ist oft nicht sichergestellt, dass element tatsaechlich im baum, wenn nicht schlaegt vererbung von dependency properties fehl
+- keine moeglichkeit routed event pairs zu implementieren, die sind nur intern moeglich
+- Routed/Functional Events sind super, weil man nicht beim attached/detached die events ranhaengen/abklemmen muss,
+	die Events kommen nur an wenn das Element das sie feuert im gleichen Baum ist
